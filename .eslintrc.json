@@ -40,8 +40,15 @@
           "tsx": "never"
         }
      ],
-     "no-use-before-define": "off",
-     "prettier/prettier": "error"
+     "ruse-before-define": "off",
+     "prettier/prettier": "error",
+     "@typescript-eslint/explicit-function-return-type": [
+       "error",
+       {
+         "allowExpressions": true
+       }
+     ],
+     "no-use-before-define": "off"
     },
     "settings": {
       "import/resolver": {
